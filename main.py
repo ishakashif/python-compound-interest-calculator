@@ -6,15 +6,15 @@ time = 0
 
 while True:
     principle = float(input("Enter the principle amount: "))
-    if principle <= 0:
+    if principle < 0:
         print("Principle can not be less than or equal to 0")
 
-while True <= 0:
+while True:
     rate = float(input("Enter the interest rate: "))
     if rate <= 0:
         print("Interest rate can not be less than or equal to 0")
 
-while time <= 0:
+while True:
     time = int(input("Enter the time in years: "))
     if time <= 0:
         print("Time can not be less than or equal to 0")
