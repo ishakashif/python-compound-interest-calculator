@@ -4,10 +4,10 @@ principle = 0
 rate = 0
 time = 0
 
-while principle <= 0:
+while principle < 0:
     principle = float(input("Enter the principle amount: "))
-    if principle <= 0:
-        print("Principle can not be less than or equal to 0")
+    if principle < 0:
+        print("Principle can not be less than 0")
 
 while rate <= 0:
     rate = float(input("Enter the interest rate: "))
