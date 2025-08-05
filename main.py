@@ -8,6 +8,8 @@ while True:
     principle = float(input("Enter the principle amount: "))
     if principle < 0:
         print("Principle can not be less than or equal to 0")
+    else:
+        break
 
 while True:
     rate = float(input("Enter the interest rate: "))
