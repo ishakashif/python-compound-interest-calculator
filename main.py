@@ -15,6 +15,8 @@ while True:
     rate = float(input("Enter the interest rate: "))
     if rate < 0:
         print("Interest rate can not be less than or equal to 0")
+    else:
+        break
 
 while True:
     time = int(input("Enter the time in years: "))
