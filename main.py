@@ -22,6 +22,8 @@ while True:
     time = int(input("Enter the time in years: "))
     if time < 0:
         print("Time can not be less than or equal to 0")
+    else:
+        break
 
 total = principle * pow((1 + rate / 100), time)
 print(f"Balance after {time} year/s: ${total:.2f}")
